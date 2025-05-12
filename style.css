@@ -131,9 +131,19 @@ a {
   width: fit-content;
 }
 
+.badge:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
 .dark-badge {
   background-color: #000;
   color: #fff;
+}
+
+#profile:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 .sticky-nav {
@@ -177,7 +187,6 @@ a {
 }
 
 .card {
-  /* background-color: #232323; */
   width: 200px;
   border-radius: 0.5rem;
   padding: 1rem;
@@ -187,6 +196,7 @@ a {
 
 .card:hover {
   background-color: #232323;
+  cursor: pointer;
 }
 
 .cards-container {
